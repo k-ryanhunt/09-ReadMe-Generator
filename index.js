@@ -11,7 +11,9 @@ ${input.description}
 ​
 ​
 ## Table of Contents
-${input.table} 
+${input.table1}
+${input.table2}
+${input.table3}
 ​
 ​
 ## Installations
@@ -35,7 +37,7 @@ ${input.tests}
 ​
 ​
 ## Any questions?
-"You can contact me, ${input.username}, through email at ${input.email} if you have any questions."`
+You can contact me, ${input.username}, through email at ${input.email} if you have any questions.`
     
     
     const questions = [{
@@ -50,8 +52,18 @@ ${input.tests}
     },
     {
         type: 'input',
-        message: 'What would you like to include in your Table of Contents?',
-        name: 'table',
+        message: 'Table of Content: Enter the first section you want to include',
+        name: 'table1',
+    },
+    {
+        type: 'input',
+        message: 'Table of Content: Enter the second section you want to include',
+        name: 'table2',
+    },
+    {
+        type: 'input',
+        message: 'Table of Content: Enter the third section you want to include',
+        name: 'table3',
     },
     {
         type: 'input',
@@ -67,7 +79,7 @@ ${input.tests}
         type: 'list',
         message: 'What License did you use?',
         name: 'license',
-        choices: ['MIT License', 'GNU General Public License v3.0', 'Apache License 2.0']
+        choices: ['MIT License', 'GNU General Public License v3.0', 'Apache License 2.0', 'Mozilla Public License 2.0']
     },
     {
         type: 'input',
@@ -99,17 +111,21 @@ ${input.tests}
                         break;
     
                     case 'GNU General Public License v3.0':
-                        badge = '![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)'
+                        badge = '![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-green.svg)'
                         break;
     
                     case 'Apache License 2.0':
                         badge = '![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)'
                         break;
+
+                    case 'Mozilla Public License 2.0':
+                        badge = '![License](https://img.shields.io/badge/https://img.shields.io/badge/License-Mozilla%202.0-red.svg)'
+                        break;
     
                     default:
                         break;
                 }
-                fs.writeFile("README2.md", generateREADME({ ...input }), (error) =>
+                fs.writeFile("generatedREADME.md", generateREADME({ ...input }), (error) =>
                     error ? console.error(error) : console.log('Thank you!'))
             })
     }
