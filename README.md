@@ -29,5 +29,6 @@ Kelsea Hunt
 
 ## Screenshots of Application
 
-![Screenshot]()
+![Screenshot](assets\terminal.gif)
 
+![Screenshot](assets\example.gif)
