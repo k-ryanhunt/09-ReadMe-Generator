@@ -15,9 +15,15 @@ This project we were tasked with creating a generator that will automatically cr
 
 * Inquirer NPM
 
+You must install 'inquirer NPM' in order to have this function properly.
+
 ## Usages
 
 * Node.js
+
+This application is ran by opening your terminal and running 'node index.js'
+
+It should prompt through the questions and when you are finished, create a README called README2 so it doesn't override the current README describing this project.
 
 ## Licenses
 
@@ -29,6 +35,6 @@ Kelsea Hunt
 
 ## Screenshots of Application
 
-![Screenshot](assets\terminal.gif)
+![Screenshot](assets/terminal.gif)
 
-![Screenshot](assets\example.gif)
+![Screenshot](assets/example.gif)

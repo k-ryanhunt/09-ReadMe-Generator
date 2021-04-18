@@ -125,7 +125,7 @@ You can contact me, ${input.username}, through email at ${input.email} if you ha
                     default:
                         break;
                 }
-                fs.writeFile("exampleREADME.md", generateREADME({ ...input }), (error) =>
+                fs.writeFile("README2.md", generateREADME({ ...input }), (error) =>
                     error ? console.error(error) : console.log('Thank you!'))
             })
     }
