@@ -11,9 +11,9 @@ ${input.description}
 ​
 ​
 ## Table of Contents
-${input.table1}
-${input.table2}
-${input.table3}
+1. ${input.table1}
+2. ${input.table2}
+3. ${input.table3}
 ​
 ​
 ## Installations

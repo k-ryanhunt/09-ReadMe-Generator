@@ -1,24 +1,24 @@
 
-# Example Project Title
+# This is My Example README
 ​
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ​
 ## Description
-This is designed to show you how this README was generated using my application. It is for example purposes only. 
+An example of what your project is about will go here. 
 ​
 ​
 ## Table of Contents
-Installations
-Usages
-Licenses
+1. Installations
+2. Usages
+3. Contributors
 ​
 ​
 ## Installations
-Inquirer NPM was used to create this README generator 
+example NPM is needed 
 ​
 ​
 ## Usages
-Here, we should explain that you would use "node index.js" to run the application in your terminal 
+example.js 
 ​
 ​
 ## Licenses
@@ -26,12 +26,12 @@ MIT License
 ​
 ​
 ## Contributors
-John Doe, James Deer, Sally Buck 
+Example John Doe 
 ​
 ​
 ## Testing the Application
-I ran through multiple READMEs in order to try and test whether or not something would break. 
+You could write here how you debugged your code and got your example to work 
 ​
 ​
 ## Any questions?
-You can contact me, k-ryanhunt, through email at hunt.kelsearyan@gmail.com if you have any questions.
+You can contact me, exampleGitHubber, through email at example@example.com if you have any questions.

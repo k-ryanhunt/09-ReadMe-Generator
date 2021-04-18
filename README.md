@@ -2,7 +2,7 @@
 
 ## Description
 
-This project we were tasked with creating a generator that will automatically create your README for you.  It will go through multiple questions gathering data and then will create a professional README with your input plugged in.
+This project we were tasked with creating a generator that will automatically create your README for you.  It will go through multiple questions gathering data and then will create a professional README with your input plugged in.  For my generator, I gave the user an option for 3 items that they will put in their Table of Content.
 
 ## Table of Contents
 
